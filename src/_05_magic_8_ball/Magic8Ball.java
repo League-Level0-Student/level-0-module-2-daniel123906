@@ -16,16 +16,17 @@ public static void main(String[] args) {
 	System.out.println(3);
 	String ball = JOptionPane.showInputDialog("Say something to the magic 8 ball");
 	if (randomNumber == 0) {
-		JOptionPane.showMessageDialog(null, "Yes"){
-		else if (randomNumber == 1) 
-		}
-		JOptionPane.showMessageDialog(null, "No")
+		JOptionPane.showMessageDialog(null, "Yes");
+}	
+	else if (randomNumber == 1) {
+		JOptionPane.showMessageDialog(null, "No");
+	}
 		else if (randomNumber == 2) {
-		JOptionPane.showMessageDialog(null, "Maybe you should ask google")
+		JOptionPane.showMessageDialog(null, "Maybe you should ask google");
 		}
 		else if (randomNumber == 3) {
-		JOptionPane.showMessageDialog(null,"Thats funny haha")
-		}
+		JOptionPane.showMessageDialog(null,"Thats funny haha");
+		}}
 	
 	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
 
@@ -51,4 +52,4 @@ public static void main(String[] args) {
 
 	// -- write your own answer
 
-}
+
